@@ -1,12 +1,14 @@
 # kubespray-HAProxy-keepalived-
+
+
 configure k8s cluster with kubespray and haproxies with vrrp and keepalived.
 ![2018120518452648](https://user-images.githubusercontent.com/73755890/187443013-46de4c0f-e8fa-4b61-9ded-96964020a9a6.png)
 
 Our VMs : Master1, Master2, Master3, Worker1, Worker2, Loadbalancer1, LoadBalancer2
 
-Firsty we configure our Load Balancers
+Firstly we configure our Load Balancers
 
-1) 1.On each node:
+1.On each node:
 ![image](https://user-images.githubusercontent.com/73755890/187444510-1723b53d-650c-44d9-b117-3dfcf8439154.png)
 
 2. After that configure on each LB nodes script for checking apiserver:
